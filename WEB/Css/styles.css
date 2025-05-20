@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;          /* Tamaño total incluye padding y borde */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: whitesmoke;
+}
+
+.contenedor-principal {
+    width: 920px;                  /* Igual que la imagen más grande */
+    margin: 0 auto;                /* Centramos horizontalmente */
+    padding: 10px;
+    background-color: #1a1a1a;     /* Fondo opcional */
+    border: 1px solid #444;
+}
+
+header, nav, section, article, aside, main {
+    
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+}
+
+img {
+    width: 100%;                   /* Imagen toma todo el ancho disponible */
+    max-width: 915px;
+    height: auto;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+
+audio {
+    background-color: blue;
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid red;
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: chartreuse;
+}
+
+nav a:visited {
+    color: deeppink;
+}
+
+nav a:active {
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    text-align: center;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: row;       /* Siempre en fila */
+    gap: 20px;                 /* Espacio entre noticias */
+}
+
+.noticia {
+    flex: 1;                   /* Ocupa el mismo espacio que sus hermanas */
+    min-width: 0;              /* Permite que se reduzcan si el espacio es pequeño */
+}
+
+#cambiar-fondo {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

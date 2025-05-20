@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="stylesheet" href="./Css/styles.css">
+</head>
+
+<body>
+    <div class="contenedor-principal">
+        <header>
+            <section>
+                <img src="./img/Banner.jpg" alt="Banner">
+                <h1>Buenas</h1>
+            </section>
+        </header>
+
+        <main>
+            <section>
+                <h2>Contenido</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#noticias">Noticias</a></li>
+                        <li><a href="#pizza">Pizza</a></li>
+                        <li><a href="#horario">Horario</a></li>
+                        <li><a href="#cambiar-fondo">Cambiar color</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section id="noticias">
+                <h2>Noticias</h2>
+                <div class="noticias">
+                    <article class="noticia">
+                        <h3>1. Se cae un avión</h3>
+                        <img src="./img/avión cae.jpg" alt="imagenDeAvión">
+                        <p>La impactante imagen de un avión que volcó al aterrizar en el aeropuerto de Toronto y dejó al menos 18 heridos.</p>
+                        <a href="https://www.bbc.com/mundo/articles/c07k7ylv552o">Link aquí</a>
+                    </article>
+                    <article class="noticia">
+                        <h3>2. Piden a Minsalud no crear otra barrera para acceder a medicamentos para el VIH</h3>
+                        <img src="./img/vih.jpg" alt="Medicamentos">
+                        <p>La entidad emitió una circular que busca que el dolutegravir y otros antirretrovirales sean reportados en el MIPRES. Esto podría crear barreras de acceso.</p>
+                        <a href="https://www.elespectador.com/salud/tratamiento-para-vih-piden-a-minsalud-no-crear-una-barrera-para-acceder-a-antirretrovirales/">Link aquí</a>
+                    </article>
+                </div>
+            </section>
+
+            <section id="pizza">
+                <h3>Yo</h3>
+                <img src="./img/pizza.jpg" alt="personarandom" style="max-width:300px;">
+                <p><a href="mailto:j.calderon2@utp.edu.co">j.calderon2@utp.edu.co</a></p>
+                <p>pizzas con 2  canciones</p>
+                <audio controls src="./audio/TwoFaced.mp3"></audio>
+                <audio controls src="./audio/Shaggy.mp3"></audio>
+            </section>
+
+            <section id="horario">
+                <h3>Horario</h3>
+                <table>
+                    <tr>
+                        <th>Hora</th><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th><th>Sábado</th>
+                    </tr>
+                    <tr><td>8:00 - 12:00</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Fundamentos de redes</td></tr>
+                    <tr><td>12:00 - 2:00</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>Técnicas de modelado</td></tr>
+                    <tr><td>4:00 - 6:00</td><td>-</td><td>Deportes 2</td><td>Inglés</td><td>-</td><td>Inglés</td><td>-</td></tr>
+                    <tr><td>6:30 - 8:10</td><td>Entornos de desarrollo</td><td>Entornos de desarrollo</td><td>Bases de datos</td><td>Entornos de desarrollo</td><td>Estadística</td><td>-</td></tr>
+                    <tr><td>8:30 - 10:10</td><td>Bases de datos</td><td>Técnicas de modelado</td><td>Estadística</td><td>Técnicas de modelado</td><td>Bases de datos</td><td>-</td></tr>
+                </table>
+                <audio controls src="./audio/MissI.mp3"></audio>
+            </section>
+
+            <button id="cambiar-fondo">Cambiar fondo</button>
+        </main>
+    </div>
+    <script src="./java.js"></script>
+
+</body>
+
+</html>
